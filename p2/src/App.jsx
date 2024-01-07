@@ -1,8 +1,19 @@
-import React from "react";
+import React from 'react'
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
 
-function App(){
-  return(
-    <div>App</div>
+import Home from './pages/home/Home';
+import Order from './pages/order/Order';
+import Cart from './pages/cart/Cart';
+import Dashboard from './pages/admin/dashboard/Dashboard';
+import NoPage from './pages/nopage/NoPage';
+
+function App() {
+  return (
+ <div>APP</div>
   )
 }
 
